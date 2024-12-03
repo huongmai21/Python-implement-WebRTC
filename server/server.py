@@ -47,5 +47,5 @@ def handle_disconnect():
     print("A client disconnected.")
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    socketio.run(app, host='0.0.0.0', port=port, debug=False)
+   port = int(os.environ.get("PORT", 5000))  # Mặc định là 5000 nếu không có cổng từ Render
+   socketio.run(app, host='0.0.0.0', port=port, debug=False)
