@@ -1,0 +1,7 @@
+# Các thư viện cần thiết
+flask
+flask_socketio
+Werkzeug
+flask_cors
+gunicorn
+eventlet
